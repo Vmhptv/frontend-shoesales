@@ -1,0 +1,59 @@
+.bill_container {
+    width: 100%;
+}
+
+.bill_left {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_item input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+}
+
+.section_item ::placeholder {
+    font-size: 12px;
+    color: rgb(164, 163, 163);
+    padding-left: 10px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+
+.right_cod {
+    display: flex;
+    flex-direction: column;
+}
+
+.cod_item {
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 5px;
+}
+
+.cod_item input {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.ship input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+    
+}
